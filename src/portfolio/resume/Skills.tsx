@@ -1,5 +1,13 @@
-import { HStack, Progress, SimpleGrid, Stack, Text } from "@chakra-ui/react";
+import {
+  Box,
+  HStack,
+  Progress,
+  SimpleGrid,
+  Stack,
+  Text,
+} from "@chakra-ui/react";
 
+import ListHeader from "./ListHeader";
 import React from "react";
 import { genObjectID } from "../../utils/functions";
 import { map } from "lodash";
@@ -45,6 +53,9 @@ const SkillProgress = ({ name, proficiency }: Skill) => {
 const Skills = () => {
   return (
     <Stack placeContent={"center"} placeItems={"center"} w={"full"}>
+      <Box py={5}>
+        <ListHeader title={"My Skills"} />
+      </Box>
       <SimpleGrid
         columns={{
           base: 1,
