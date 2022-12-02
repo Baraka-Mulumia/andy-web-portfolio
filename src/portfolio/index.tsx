@@ -4,7 +4,6 @@ import AboutSection from "./about";
 import ContactSection from "./contact";
 import FooterSection from "./footer";
 import HeroSection from "./hero";
-import PlatformsSection from "./platforms";
 import ProjectsSection from "./projects";
 import ResumeSection from "./resume";
 import Scroll from "react-scroll";
@@ -43,10 +42,6 @@ const features = [
     component: AboutSection,
   },
   {
-    name: "platforms",
-    component: PlatformsSection,
-  },
-  {
     name: "resume",
     component: ResumeSection,
   },
@@ -57,10 +52,6 @@ const features = [
   {
     name: "contact",
     component: ContactSection,
-  },
-  {
-    name: "footer",
-    component: FooterSection,
   },
 ];
 

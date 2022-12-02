@@ -18,9 +18,10 @@ const SectionHeader = ({ title, subtitle }: SectionHeaderProps) => {
       >
         <Text
           fontWeight={"bold"}
+          color={"gray.500"}
           textTransform={"uppercase"}
           fontSize={{ base: "5xl", sm: "6xl", md: "8xl" }}
-          opacity={0.2}
+          opacity={0.1}
         >
           {title}
         </Text>

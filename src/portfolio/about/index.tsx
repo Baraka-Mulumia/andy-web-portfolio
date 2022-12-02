@@ -11,7 +11,7 @@ const AboutSection = () => {
       minH={"100vh"}
       w={"full"}
       pt={32}
-      bg={"rgba(0,0,0,0.75)"}
+      bg={"rgba(0,0,0,0.9)"}
       spacing={20}
       px={4}
       pb={8}
