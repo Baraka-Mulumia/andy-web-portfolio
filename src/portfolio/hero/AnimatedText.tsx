@@ -1,4 +1,4 @@
-import { Box, Text } from "@chakra-ui/react";
+import { Box, Text, useMediaQuery } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
 
 import { css } from "@emotion/css";
@@ -22,6 +22,8 @@ const AnimatedText = ({ textItems }: { textItems: string[] }) => {
   const [display, setDisplay] = useState("");
 
   const letters = textItems[currentTextIndex].split("");
+
+  const [isLargerThan768] = useMediaQuery("(min-width: 768px)");
 
   // display the text one letter at a time
   useEffect(() => {
@@ -54,8 +56,13 @@ const AnimatedText = ({ textItems }: { textItems: string[] }) => {
   }, [currentTextIndex, textItems]);
 
   return (
-    <Box h={10}>
-      <Text variant={"text_white"} size={"8xl"} fontWeight={600}>
+    <Box minH={24}>
+      <Text
+        variant={"text_white"}
+        textAlign={"center"}
+        size={isLargerThan768 ? "8xl" : "6xl"}
+        fontWeight={600}
+      >
         {display}
         <Text as={"span"} color={"#FFD700"} className={blinkingCursor}>
           |

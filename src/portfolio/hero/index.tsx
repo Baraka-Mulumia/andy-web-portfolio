@@ -3,7 +3,7 @@ import { MdArrowDownward, MdStickyNote2 } from "react-icons/md";
 
 import AnimatedText from "./AnimatedText";
 import { css } from "@emotion/css";
-import { scrollIntoSection } from "../../components/SideBar/NavLinks";
+import { scrollIntoSection } from "../../components/NavLinks";
 
 // animate the arrow down icon to bounce up and down
 const arrowDownAnimation = css`
@@ -51,7 +51,7 @@ const HeroSection = () => {
           Hello !
         </Text>
         <AnimatedText textItems={textItems} />
-        <Text variant={"text_white"} size={"2xl"}>
+        <Text variant={"text_white"} textAlign={"center"} size={"xl"}>
           Currently, I work at CompanyX. Kenya
         </Text>
         <Button
