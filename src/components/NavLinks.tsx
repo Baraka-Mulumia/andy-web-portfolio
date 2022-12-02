@@ -1,4 +1,4 @@
-import { Stack, Text } from "@chakra-ui/react";
+import { Stack, Text, useMediaQuery } from "@chakra-ui/react";
 
 import { map } from "lodash";
 import { scroller } from "../portfolio";
@@ -26,17 +26,19 @@ const LINKS = [
   },
 ];
 
-export function scrollIntoSection(sectionName: string) {
+export function scrollIntoSection(sectionName: string, offset = 0) {
   scroller.scrollTo(sectionName, {
     duration: 800,
     delay: 0,
     smooth: "easeInOutQuart",
     containerId: "scroll-container",
-    offset: -50,
+    offset,
   });
 }
 
 const InternalNavItem = ({ name, link }: { name: string; link: string }) => {
+  const [isMobile] = useMediaQuery("(max-width: 768px)");
+
   return (
     <Text
       variant={"text_white"}
@@ -44,7 +46,7 @@ const InternalNavItem = ({ name, link }: { name: string; link: string }) => {
         color: "red.400",
         cursor: "pointer",
       }}
-      onClick={() => scrollIntoSection(link)}
+      onClick={() => scrollIntoSection(link, isMobile ? -70 : 0)}
     >
       {name}
     </Text>
