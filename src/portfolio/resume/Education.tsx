@@ -123,7 +123,7 @@ const Education = () => {
           ))}
         </Stack>
       </Stack>
-      <Stack spacing={5}>
+      <Stack spacing={5} pt={10}>
         <ListHeader title={"My Courses and Certifications"} />
         <Stack spacing={5}>
           {map(certifications, (certification) => (
