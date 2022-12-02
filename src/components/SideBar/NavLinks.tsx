@@ -26,16 +26,16 @@ const LINKS = [
   },
 ];
 
-const InternalNavItem = ({ name, link }: { name: string; link: string }) => {
-  function scrollTo(link: string) {
-    scroller.scrollTo(link, {
-      duration: 800,
-      delay: 0,
-      smooth: "easeInOutQuart",
-      containerId: "scroll-container",
-    });
-  }
+export function scrollIntoSection(sectionName: string) {
+  scroller.scrollTo(sectionName, {
+    duration: 800,
+    delay: 0,
+    smooth: "easeInOutQuart",
+    containerId: "scroll-container",
+  });
+}
 
+const InternalNavItem = ({ name, link }: { name: string; link: string }) => {
   return (
     <Text
       variant={"text_white"}
@@ -43,7 +43,7 @@ const InternalNavItem = ({ name, link }: { name: string; link: string }) => {
         color: "red.400",
         cursor: "pointer",
       }}
-      onClick={() => scrollTo(link)}
+      onClick={() => scrollIntoSection(link)}
     >
       {name}
     </Text>
