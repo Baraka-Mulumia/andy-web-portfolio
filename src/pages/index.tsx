@@ -16,7 +16,7 @@ export const { Element, Link, scroller } = Scroll;
 const withWrapper = (Component: () => JSX.Element) => {
   const FeatureWrapper = ({ name }: { name: string }) => {
     return (
-      <Element name={name} key={name}>
+      <Element name={name} key={name} width={"100%"}>
         <Box as="section" w="100%" h={"100vh"}>
           <Component />
         </Box>
@@ -59,7 +59,7 @@ const features = [
 ];
 
 const Main = () => (
-  <VStack>
+  <VStack w={"full"} align={"stretch"} p={0}>
     {map(features, (feature) => {
       const Component = feature.component;
       return withWrapper(Component)({ name: feature.name });
