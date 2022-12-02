@@ -28,12 +28,14 @@ const HeroSection = () => {
   ];
 
   return (
-    <Box
+    <Stack
       w={"full"}
-      h={"full"}
+      h={"100vh"}
       backgroundImage={"url(/assets/images/hero-background.jpg)"}
       backgroundSize={"cover"}
       backgroundPosition={"center center"}
+      placeContent={"center"}
+      placeItems={"center"}
     >
       <Stack
         w={"full"}
@@ -74,7 +76,7 @@ const HeroSection = () => {
       >
         <MdArrowDownward color="#fff" size={32} />
       </Box>
-    </Box>
+    </Stack>
   );
 };
 
