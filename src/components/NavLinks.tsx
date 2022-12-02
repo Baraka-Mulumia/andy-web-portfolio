@@ -32,6 +32,7 @@ export function scrollIntoSection(sectionName: string) {
     delay: 0,
     smooth: "easeInOutQuart",
     containerId: "scroll-container",
+    offset: -50,
   });
 }
 
