@@ -66,7 +66,7 @@ const ExperienceCard = (props: ExperienceProps) => {
         {title}
       </Text>
       {companyLink ? (
-        <Link>
+        <Link href={companyLink} isExternal>
           <HStack>
             <Text
               textTransform={"uppercase"}

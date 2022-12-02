@@ -66,7 +66,7 @@ const EducationCard = (props: EducationProps) => {
         {courseName}
       </Text>
       {instituteWebsite ? (
-        <Link>
+        <Link href={instituteWebsite} isExternal>
           <HStack>
             <Text
               textTransform={"uppercase"}
