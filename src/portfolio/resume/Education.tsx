@@ -22,7 +22,7 @@ type EducationProps = {
   courseName: string;
   timeline: string;
   institute: string;
-  instituteWebsite?: string;
+  instituteLink?: string;
   description?: string;
   coursesIncluded?: string[];
 };
@@ -32,7 +32,7 @@ const EducationCard = (props: EducationProps) => {
     courseName,
     timeline,
     institute,
-    instituteWebsite,
+    instituteLink,
     description,
     coursesIncluded,
   } = props;
@@ -65,8 +65,8 @@ const EducationCard = (props: EducationProps) => {
       <Text fontWeight={600} fontSize={"xl"} variant={"text_white"}>
         {courseName}
       </Text>
-      {instituteWebsite ? (
-        <Link href={instituteWebsite} isExternal>
+      {instituteLink ? (
+        <Link href={instituteLink} isExternal>
           <HStack>
             <Text
               textTransform={"uppercase"}
