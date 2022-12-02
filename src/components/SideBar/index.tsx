@@ -39,6 +39,7 @@ const SideBar = () => {
             alt="Andrew Kamau"
             width={224}
             height={224}
+            priority={true}
           />
         </Box>
         <Text size={"3xl"} variant={"text_white"} fontWeight={500}>
