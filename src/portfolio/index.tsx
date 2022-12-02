@@ -1,4 +1,4 @@
-import { Box, HStack, VStack } from "@chakra-ui/react";
+import { Box, HStack, Stack, VStack } from "@chakra-ui/react";
 
 import AboutSection from "./about";
 import ContactSection from "./contact";
@@ -18,9 +18,14 @@ const withScrollElement = (Component: () => JSX.Element) => {
   const Section = ({ name }: { name: string }) => {
     return (
       <Element name={name} key={name} width={"100%"}>
-        <Box as="section" w="100%" h={"100vh"}>
+        <Stack
+          as="section"
+          w="100%"
+          placeContent={"center"}
+          placeItems={"center"}
+        >
           <Component />
-        </Box>
+        </Stack>
       </Element>
     );
   };
@@ -61,7 +66,7 @@ const features = [
 
 const Portfolio = () => {
   return (
-    <Box minW={"360px"}>
+    <Box minW={"360px"} bg={"#dddddd"}>
       <TopBar />
       <HStack w={"full"} spacing={0}>
         <Box as="aside" display={{ base: "none", lg: "block" }}>
@@ -75,7 +80,7 @@ const Portfolio = () => {
           w={"full"}
           overflowY={"scroll"}
         >
-          <VStack w={"full"} align={"stretch"} p={0}>
+          <VStack w={"full"} align={"stretch"} p={0} spacing={0}>
             {map(features, (feature) => {
               const Component = feature.component;
               return withScrollElement(Component)({ name: feature.name });
