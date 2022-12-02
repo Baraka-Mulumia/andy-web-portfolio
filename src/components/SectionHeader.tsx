@@ -19,7 +19,7 @@ const SectionHeader = ({ title, subtitle }: SectionHeaderProps) => {
         <Text
           fontWeight={"bold"}
           textTransform={"uppercase"}
-          fontSize={{ base: "7xl", md: "8xl" }}
+          fontSize={{ base: "5xl", sm: "6xl", md: "8xl" }}
           opacity={0.2}
         >
           {title}
@@ -30,7 +30,7 @@ const SectionHeader = ({ title, subtitle }: SectionHeaderProps) => {
         top={"50%"}
         left={"50%"}
         transform={"translate(-50%, -50%)"}
-        fontSize={{ base: "2xl", md: "4xl" }}
+        fontSize={{ base: "xl", sm: "2xl", md: "4xl" }}
         fontWeight={500}
         variant={"text_white"}
       >
