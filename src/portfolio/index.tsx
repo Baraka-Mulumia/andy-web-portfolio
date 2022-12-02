@@ -2,7 +2,6 @@ import { Box, HStack, Stack, VStack } from "@chakra-ui/react";
 
 import AboutSection from "./about";
 import ContactSection from "./contact";
-import FooterSection from "./footer";
 import HeroSection from "./hero";
 import ProjectsSection from "./projects";
 import ResumeSection from "./resume";
