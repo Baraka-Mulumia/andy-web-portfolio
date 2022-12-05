@@ -1,4 +1,4 @@
-import { Box, Button, Stack, Text } from "@chakra-ui/react";
+import { Box, Button, Link, Stack, Text } from "@chakra-ui/react";
 import { MdArrowDownward, MdStickyNote2 } from "react-icons/md";
 
 import AnimatedText from "./AnimatedText";
@@ -56,14 +56,24 @@ const HeroSection = () => {
         <Text variant={"text_white"} textAlign={"center"} size={"xl"}>
           Currently, I work at CompanyX. Kenya
         </Text>
-        <Button
-          rounded={"full"}
-          colorScheme={"yellow"}
-          size={"lg"}
-          rightIcon={<MdStickyNote2 />}
+        <Link
+          href={
+            "https://drive.google.com/file/d/1ON8y21oEyEXe3ZuUP7oc6znzy6IxBl1s/view?usp=sharing"
+          }
+          target={"_blank"}
+          rel={"noopener noreferrer"}
+          isExternal
+          download={"Andrew Kamau - Resume.pdf"}
         >
-          Download CV
-        </Button>
+          <Button
+            rounded={"full"}
+            colorScheme={"yellow"}
+            size={"lg"}
+            rightIcon={<MdStickyNote2 />}
+          >
+            Download CV
+          </Button>
+        </Link>
       </Stack>
       <Box
         position={"absolute"}
