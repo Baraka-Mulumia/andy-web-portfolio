@@ -16,10 +16,10 @@ const LINKS = [
     name: "Resume",
     link: "resume",
   },
-  {
-    name: "Projects",
-    link: "projects",
-  },
+  // {
+  //   name: "Projects",
+  //   link: "projects",
+  // },
   {
     name: "Contact",
     link: "contact",

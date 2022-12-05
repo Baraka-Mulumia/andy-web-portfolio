@@ -44,10 +44,10 @@ const features = [
     name: "resume",
     component: ResumeSection,
   },
-  {
-    name: "projects",
-    component: ProjectsSection,
-  },
+  // {
+  //   name: "projects",
+  //   component: ProjectsSection,
+  // },
   {
     name: "contact",
     component: ContactSection,
