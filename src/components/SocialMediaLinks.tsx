@@ -11,7 +11,7 @@ const LINKS = [
   },
   {
     name: "Linkedin",
-    link: "https://linkedin.com",
+    link: "https://linkedin.com/in/andy-woods-348018150",
     icon: FaLinkedin,
   },
   {
