@@ -17,12 +17,12 @@ const ContactDetails = () => {
       </Text>
       <HStack>
         <MdEmail size={20} color={"#FFD700"} />
-        <Text variant={"text_white"}>+254 700 000 000</Text>
+        <Text variant={"text_white"}>++254 724 042 490</Text>
       </HStack>
       <HStack pb={5}>
         <MdAddIcCall size={20} color={"#FFD700"} />
-        <Link href="mailto:andy@gmail.com" isExternal>
-          <Text variant={"text_white"}>andy@gmail.com</Text>
+        <Link href="mailto:andrewwaweru388@gmail.com" isExternal>
+          <Text variant={"text_white"}>andrewwaweru388@gmail.com</Text>
         </Link>
       </HStack>
       <Text

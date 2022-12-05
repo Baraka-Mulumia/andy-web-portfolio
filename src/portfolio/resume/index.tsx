@@ -32,7 +32,7 @@ const ResumeSection = () => {
           }}
           placeItems={{
             base: "center",
-            md: "space-evenly",
+            md: "start",
           }}
         >
           <Experience />

@@ -11,15 +11,15 @@ const UserDetails = [
   },
   {
     title: "Email",
-    value: "andy@gmail.com",
+    value: "andrewwaweru388@gmail.com",
   },
   {
     title: "Phone",
-    value: "+254 712 345 678",
+    value: "+254 724 042 490",
   },
   {
     title: "Location",
-    value: "Nairobi, Kenya",
+    value: "45 waiyaki way, Nairobi, Kenya",
   },
 ];
 

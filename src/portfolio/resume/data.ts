@@ -43,57 +43,43 @@ export const skills = [
 
 export const experiences = [
   {
-    title: "Senior Security Analyst",
-    company: "Citi",
-    companyLink: "https://www.citi.com/",
-    timeline: "2022 - Present",
-    description:
-      "Working as a Senior Security Analyst in Citi's Global Security Operations Center (GSOC).",
+    title: "Sale Retainer/ Development & Implementation",
+    company: "Cybcorp Digital",
+    companyLink: "https://cybcorp.tech/",
+    timeline: "May 2022 - Present",
+    description: "Design and development of digital products",
     responsibilities: [
-      "Performing security monitoring and incident response for Citi's global network.",
-      "Performing security monitoring and incident response for Citi's global network.",
+      "Pitching about the software and its benefits to clients",
+      "Trainned the customers on how they can use the software to maximize their profits and manage their business",
+      "Impelementing the software with the systems they are using",
+      "Designed and developed a cloud-based application that increased productivity by 30%",
+      "Implemented a new CRM system that resulted in a 15% increase in sales",
+      "Developed a new marketing strategy that increased brand awareness by 25%.",
+      "Created and implemented a new sales process that increased sales by 20",
     ],
   },
   {
     title: "Cyber Security Technical Trainer",
     company: "Institute of Software Technologies",
     companyLink: "https://isteducation.com/",
-    timeline: "May 2021 - Dec 2022",
+    timeline: "Feb 2021 - Dec 2022",
     description: "Working as a Cyber Security Technical Trainer at IST.",
     responsibilities: [
       "Teaching Cyber Security courses to students.",
       "Supervising students' projects.",
-    ],
-  },
-  {
-    title: "Technical Support Engineer",
-    company: "CONSULTIX",
-    companyLink: "https://consultixwireless.com/",
-    timeline: "Sept 2020 - May 2021",
-    description:
-      "Consultix has the most comprehensive portfolio in the industry for IBS / DAS testing and design tools. Consultix unique solutions cover the entire IBS/DAS project life cycle end to end; From design, verification, installation testing and commissioning all the way to long-term maintenance, optimization and monitoring solutions. And the below are my responsibilities in the company.",
-    responsibilities: [
-      "Firmware upgrades",
-      "Providing technical support to customers",
-      "1st and 2nd line support",
-      "Troubleshooting",
-      "Technical documentation",
+      "Maintained and managed confidential files and records, performed password auditing assessments, and completed professional network vulnerability assessments in students data database",
+      "Trained students on how to perform Network test to configure and secure the network protocals",
+      "Performed bug bounty on company's test website for students to get the context in real life senarios",
     ],
   },
 ];
 
 export const education = [
   {
-    courseName: "BSc. Computer forensics and Cyber Security",
-    institute: "University of Nairobi",
-    instituteLink: "https://www.uonbi.ac.ke/",
-    timeline: "2015 - 2019",
-  },
-  {
-    courseName: "Diploma in Cyber Security",
+    courseName: "Computer Science & Information Systems | Diploma ",
     institute: "Institute of Software Technologies",
     instituteLink: "https://isteducation.com/",
-    timeline: "2020 - 2021",
+    timeline: "Sep 2019 - Nov 2020",
     coursesIncluded: [
       "Usable security",
       "Software security",
@@ -105,29 +91,9 @@ export const education = [
 
 export const certifications = [
   {
-    timeline: "2021",
-    courseName: "CompTIA Security+",
-    institute: "Udacity NanoDegree diploma details",
-    instituteLink: "https://www.udacity.com/course/comptia-security--ud611",
-  },
-  {
-    timeline: "2021",
-    courseName: "AWS Developer Associate",
-    institute: "Udacity NanoDegree diploma details",
-    instituteLink:
-      "https://www.udacity.com/course/aws-developer-associate-nanodegree--nd9991",
-  },
-  {
-    timeline: "2021",
-    courseName: "PECB Certified ISO/IEC 27001 Auditor",
-    institute: "PECB",
-    instituteLink:
-      "https://www.pecb.com/en/certification/iso-iec-27001-auditor",
-  },
-  {
-    timeline: "May 2020 - Nov 2020",
-    courseName: "JNCIS-SEC - Cyber Security Specialist",
-    institute: "Juniper Networks",
-    instituteLink: "https://www.juniper.net/us/en/training/certification/",
+    timeline: "2020",
+    courseName: "Certified Ethical Hacker",
+    institute: "EC-Council",
+    instituteLink: "https://www.eccouncil.org/",
   },
 ];
