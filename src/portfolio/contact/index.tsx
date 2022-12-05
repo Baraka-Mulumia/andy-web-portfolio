@@ -2,6 +2,7 @@ import { Box, Link, Stack, Text } from "@chakra-ui/react";
 
 import ContactDetails from "./ContactDetails";
 import ContactForm from "./ContactForm";
+import FootNote from "../../components/FootNote";
 import SectionHeader from "../../components/SectionHeader";
 
 const ContactSection = () => {
@@ -28,17 +29,7 @@ const ContactSection = () => {
           <ContactForm />
         </Stack>
       </Stack>
-      <Box w={"full"} p={10} bg={"gray.900"}>
-        <Text color={"white"} textAlign={"center"}>
-          Made with ❤️{" "}
-          <Link href="https://iambaraka.dev" isExternal>
-            <Text as={"span"} color={"#FFD700"}>
-              iambaraka.dev{" "}
-            </Text>
-          </Link>
-          © {new Date().getFullYear()}
-        </Text>
-      </Box>
+      <FootNote />
     </Stack>
   );
 };
