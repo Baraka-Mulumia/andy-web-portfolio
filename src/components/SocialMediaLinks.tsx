@@ -6,7 +6,7 @@ import { map } from "lodash";
 const LINKS = [
   {
     name: "Github",
-    link: "https://github.com",
+    link: "https://github.com/woody1230",
     icon: FaGithub,
   },
   {
@@ -14,16 +14,16 @@ const LINKS = [
     link: "https://linkedin.com/in/andy-woods-348018150",
     icon: FaLinkedin,
   },
-  {
-    name: "Twitter",
-    link: "https://twitter.com",
-    icon: FaTwitter,
-  },
-  {
-    name: "Facebook",
-    link: "https://facebook.com",
-    icon: FaFacebook,
-  },
+  // {
+  //   name: "Twitter",
+  //   link: "https://twitter.com",
+  //   icon: FaTwitter,
+  // },
+  // {
+  //   name: "Facebook",
+  //   link: "https://facebook.com",
+  //   icon: FaFacebook,
+  // },
 ];
 
 type SocialMediaLinkProps = {
