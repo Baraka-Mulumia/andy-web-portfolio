@@ -17,7 +17,7 @@ const ContactDetails = () => {
       </Text>
       <HStack>
         <MdAddIcCall size={20} color={"#FFD700"} />
-        <Text variant={"text_white"}>++254 724 042 490</Text>
+        <Text variant={"text_white"}>+254 724 042 490</Text>
       </HStack>
       <HStack pb={5}>
         <MdEmail size={20} color={"#FFD700"} />
