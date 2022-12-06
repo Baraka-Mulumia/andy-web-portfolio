@@ -16,11 +16,11 @@ const ContactDetails = () => {
         Contact Details
       </Text>
       <HStack>
-        <MdEmail size={20} color={"#FFD700"} />
+        <MdAddIcCall size={20} color={"#FFD700"} />
         <Text variant={"text_white"}>++254 724 042 490</Text>
       </HStack>
       <HStack pb={5}>
-        <MdAddIcCall size={20} color={"#FFD700"} />
+        <MdEmail size={20} color={"#FFD700"} />
         <Link href="mailto:andrewwaweru388@gmail.com" isExternal>
           <Text variant={"text_white"}>andrewwaweru388@gmail.com</Text>
         </Link>
