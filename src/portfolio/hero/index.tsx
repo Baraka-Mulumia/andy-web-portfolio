@@ -54,7 +54,11 @@ const HeroSection = () => {
         </Text>
         <AnimatedText textItems={textItems} />
         <Text variant={"text_white"} textAlign={"center"} size={"xl"}>
-          Currently, I work at CompanyX. Kenya
+          Currently, I work at{" "}
+          <Text as={"span"} variant={"text_white"} fontWeight={"bold"}>
+            CybCorp Digital,{" "}
+          </Text>
+          Kenya
         </Text>
         <Link
           href={
