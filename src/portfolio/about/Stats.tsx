@@ -10,7 +10,7 @@ const stats = [
     value: "Years of experience",
   },
   {
-    stat: "10+",
+    stat: "5+",
     value: "Courses & Certificates",
   },
 ];
