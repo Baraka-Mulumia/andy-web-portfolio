@@ -2,7 +2,7 @@ import { Box, Link, Stack, Text } from "@chakra-ui/react";
 
 import ContactDetails from "./ContactDetails";
 import ContactForm from "./ContactForm";
-import FootNote from "../../components/FootNote";
+// import FootNote from "../../components/FootNote";
 import SectionHeader from "../../components/SectionHeader";
 
 const ContactSection = () => {
@@ -29,7 +29,7 @@ const ContactSection = () => {
           <ContactForm />
         </Stack>
       </Stack>
-      <FootNote />
+{/*       <FootNote /> */}
     </Stack>
   );
 };
